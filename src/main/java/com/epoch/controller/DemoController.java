@@ -16,7 +16,6 @@ public class DemoController {
         return "test";
     }
 
-
     @RequestMapping("/index2")
     public User index2(){
         logger.info("index2");
